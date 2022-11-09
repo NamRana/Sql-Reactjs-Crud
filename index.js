@@ -5,9 +5,10 @@ const app=express();
 
 const db=mysql.createConnection({
     host:"localhost",
-    user:"root",
-    password:"password",
+    user:"",
+    password:"",
     database:"test",
+    //write your local system password and username
 })
 
 app.get("/",(req,res)=>{
